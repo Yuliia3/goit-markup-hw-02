@@ -47,7 +47,7 @@ box-sizing: border-box;
    
     font-weight: 800;
     font-size: 18px;
-    line-height:  1,7;
+    line-height:  1.7;
    
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ box-sizing: border-box;
 .link-menu{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
    
     
     letter-spacing: 0.02em;
