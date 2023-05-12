@@ -61,7 +61,7 @@ box-sizing: border-box;
     
 }
 
-.link-menu {
+.link-menu  {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -73,6 +73,14 @@ box-sizing: border-box;
     color: #2E2F42;
     
 }
+
+.link-menu:hover { color: #404BBF;
+
+}
+.link-menu:focus { color: #404BBF;
+
+}
+
 
 .titlel-section {
     
@@ -124,7 +132,20 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.link-menu-info:hover { color: #404BBF;
 
+}
+.link-menu-info:hover {
+    color:#404BBF;
+}
+
+.btn-order:hover {
+   background-color: #404BBF; 
+
+}
+.btn-order:focus { color: #404BBF;
+    
+}
 
 .information {
     background: #FFFFFF;
