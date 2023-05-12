@@ -5,6 +5,7 @@
 .page {
     font-family: "Roboto" , sans-serif;
     background: #FFFFFF;
+    color: #434455;
     
 
     
@@ -26,7 +27,7 @@ box-sizing: border-box;
 
 
 }
-.logo { font-family:"Raleway", sans-serif;
+.logo-link { font-family:"Raleway", sans-serif;
    
     font-weight: 800;
     font-size: 18px;
@@ -168,7 +169,7 @@ color: #2E2F42;
     background: #F4F4FD;
 }
 
-.subtitle-menu {
+.desc-menu {
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -181,14 +182,11 @@ text-transform: capitalize;
 
 
 color: #2E2F42;
-
+background: #FFFFFF;
 }
 
 .images-photo {
     background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-
 }
 
 .name {
