@@ -99,13 +99,14 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 flex: none;
+cursor: pointer;
  }
 
-.btn-order :hover {
+.btn-order:hover {
     background-color: #404BBF;
 }
 
-.btn-order :focus {
+.btn-order:focus {
     background-color: #404BBF;
 }
 
@@ -249,7 +250,7 @@ line-height: 1.5;
 
 letter-spacing: 0.04em;
 color: #4D5AE5;
-
+cursor: pointer;
 }
 .main-menu-one:hover { color: #FFFFFF;
 
