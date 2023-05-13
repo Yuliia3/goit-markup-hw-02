@@ -24,7 +24,13 @@ background: #FFFFFF;
     font-size: 18px;
     line-height: 1.17;
      color: #4D5AE5;
+     letter-spacing: 0.03em;
+text-transform: uppercase;
 }
+.logo-link:hover {
+    color: #404BBF;
+}
+
 
 .logo-studio { font-family: "Raleway", sans-serif;
    
@@ -41,6 +47,9 @@ background: #FFFFFF;
     color: #FFFFFF;
     
     
+}
+.logo-studio-link {
+    color: #2E2F42;
 }
 
 .link-menu  {
@@ -124,11 +133,11 @@ letter-spacing: 0.02em;
 
 
 
-.btn-order:hover {
+.btn-order :hover {
    background-color: #404bbf; 
 
 }
-.btn-order:focus { color: #404bbf;
+.btn-order :focus { color: #404BBF;
     
 }
 
@@ -162,7 +171,7 @@ color: #434455;
 font-size: 36px;
 line-height: 1.11;
 
- 
+text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
@@ -298,20 +307,8 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-.logo-link {
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
 
 
 
-color: #4D5AE5;
-
-}
-.logo-link:hover {
-    color: #404BBF;
-}
 
 
