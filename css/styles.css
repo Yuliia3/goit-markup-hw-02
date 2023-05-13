@@ -1,5 +1,5 @@
 :root {
-
+--first-color: #434445;
 }
 
 .page {
@@ -91,13 +91,7 @@ color: #FFFFFF;
 
 .btn-order { 
     font-family:  "Roboto", sans-serif;
-   
-
-
-background: #4D5AE5;
-
-
-
+   background: #4D5AE5;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -125,9 +119,9 @@ line-height: 1.5;
 
 
 letter-spacing: 0.02em;
-color: var(#434455);
 
 
+color: var(--first-color);
 
 
 }
