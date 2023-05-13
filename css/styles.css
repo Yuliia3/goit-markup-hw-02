@@ -123,7 +123,7 @@ flex-grow: 0; }
 
 
 .link-information {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -136,20 +136,20 @@ letter-spacing: 0.02em;
 
 color: #434455;
 }
-.link-information :hover {
+.link-information:hover {
     color: #404bbf;
 }
-.link-information :focus {
+.link-information:focus {
     color: #404bbf;
 }
 
 
 
-.btn-order :hover {
+.btn-order:hover {
    background-color: #404bbf; 
 
 }
-.btn-order :focus { color: #404bbf;
+.btn-order:focus { color: #404bbf;
     
 }
 
@@ -274,19 +274,19 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 
 }
-.main-menu-one :hover { color: #FFFFFF;
+.main-menu-one:hover { color: #FFFFFF;
 
 }
 
-.main-menu-one :focus {
+.main-menu-one:focus {
     color: #FFFFFF;
 }
 
-.main-menu-one :hover {
+.main-menu-one:hover {
     background-color : #404BBF;
 }
 
-.main-menu-one :focus {
+.main-menu-one:focus {
     background-color: #404BBF;
 }
 .main-menu {
@@ -369,7 +369,7 @@ line-height: 1.17;
 color: #4D5AE5;
 
 }
-.logo-link :hover {
+.logo-link:hover {
     color: #404BBF;
 }
 
@@ -389,3 +389,4 @@ color: #FFFFFF;
 .main-menu:hover {
     background-color: #404BBF;
 }
+
