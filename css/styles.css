@@ -257,7 +257,7 @@ color: #F4F4FD;
 }
 
 .main-menu-one { font-family:"Roboto", sans-serif;
-    background: #F4F4FD;
+    background:#F4F4FD;
 
 border-radius: 4px;
 font-weight: 500;
@@ -268,7 +268,7 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 
 }
-.main-menu-one:hover {color: #FFFFFF;
+.main-menu-one:hover {color:#FFFFFF;
 
 }
 
@@ -277,7 +277,7 @@ color: #4D5AE5;
 }
 
 .main-menu-one:hover {
-    background-color: #404BBF;
+    background-color:#404BBF;
 }
 
 .main-menu-one:focus {
@@ -350,4 +350,33 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 
+}
+.logo-link {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+
+
+
+color: #4D5AE5;
+
+}
+
+.menu-one {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+
+color: #FFFFFF;
+}
+
+.menu-one:hover {
+    color: #FFFFFF;
+}
+.main-menu:hover {
+    background-color: #404BBF;
 }
