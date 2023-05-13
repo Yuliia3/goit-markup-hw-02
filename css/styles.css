@@ -119,31 +119,37 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 flex: none;
 order: 0;
-flex-grow: 0;
+flex-grow: 0; }
 
 
-}
-
-.link-menu-info {
-    font-weight: 500;
+.link-information {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
 font-size: 16px;
-line-height: 1.5;
+line-height: 24px;
+
+
 letter-spacing: 0.02em;
+
+
+
 color: #434455;
 }
-
-.link-menu-info :hover { color: #404BBF;
-
+.link-information :hover {
+    color: #404bbf;
 }
-.link-menu-info :focus {
-    color:#404BBF;
+.link-information :focus {
+    color: #404bbf;
 }
+
+
 
 .btn-order :hover {
-   background-color: #404BBF; 
+   background-color: #404bbf; 
 
 }
-.btn-order :focus { color: #404BBF;
+.btn-order :focus { color: #404bbf;
     
 }
 
