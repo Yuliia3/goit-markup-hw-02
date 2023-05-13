@@ -27,7 +27,7 @@ box-sizing: border-box;
 
 
 }
-.logo-link { font-family: "Raleway" , sans-serif;
+.logo-link { font-family: "Raleway", sans-serif;
    
     font-weight: 800;
     font-size: 18px;
@@ -44,7 +44,7 @@ box-sizing: border-box;
     color: #4D5AE5;
 }
 
-.logo-studio { font-family: "Raleway" , sans-serif;
+.logo-studio { font-family: "Raleway", sans-serif;
    
     font-weight: 800;
     font-size: 18px;
@@ -127,7 +127,7 @@ flex-grow: 0; }
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 
 
 letter-spacing: 0.02em;
@@ -274,19 +274,19 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 
 }
-.main-menu-one:hover { color: #FFFFFF;
+.main-menu-one :hover { color: #FFFFFF;
 
 }
 
-.main-menu-one:focus {
+.main-menu-one :focus {
     color: #FFFFFF;
 }
 
-.main-menu-one:hover {
+.main-menu-one :hover {
     background-color : #404BBF;
 }
 
-.main-menu-one:focus {
+.main-menu-one :focus {
     background-color: #404BBF;
 }
 .main-menu {
@@ -319,7 +319,7 @@ color: #4D5AE5;
 }
 
 .logo {
-   font-family: "Raleway",sans-serif;
+   font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -358,7 +358,7 @@ color: #434455;
 
 }
 .logo-link {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
