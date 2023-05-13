@@ -104,8 +104,16 @@ line-height: 1.5;
 
 letter-spacing: 0.04em;
 color: #FFFFFF;
-flex: none; }
+flex: none;
+ }
 
+.btn-order :hover {
+    background-color: #404BBF;
+}
+
+.btn-order :focus {
+    background-color: #404BBF;
+}
 
 
 .link-information {
@@ -133,13 +141,8 @@ letter-spacing: 0.02em;
 
 
 
-.btn-order :hover {
-   background-color: #404bbf; 
 
-}
-.btn-order :focus { color: #404BBF;
-    
-}
+
 
 .information {
     background: #FFFFFF;
