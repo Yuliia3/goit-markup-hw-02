@@ -132,18 +132,18 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.link-menu-info:hover { color: #404BBF;
+.link-menu-info :hover { color: #404BBF;
 
 }
-.link-menu-info:hover {
+.link-menu-info :focus {
     color:#404BBF;
 }
 
-.btn-order:hover {
+.btn-order :hover {
    background-color: #404BBF; 
 
 }
-.btn-order:focus { color: #404BBF;
+.btn-order :focus { color: #404BBF;
     
 }
 
