@@ -10,7 +10,7 @@
   --pimary-brand: #4d5ae5;
 }
 
-.page {
+body {
   font-family: "Roboto", sans-serif;
   background: var(--header-backround);
   color: var(--text);
