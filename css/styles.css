@@ -1,317 +1,251 @@
-
-
 :root {
-  
+  --modal-backround-kolor: #fcfcfc;
+  --header-backround: #ffffff;
+  --image-backround: #2e2f42;
+  --light-backround: #f4f4fd;
+  --acent-color: #e7e9fc;
+  --subtle-text: #8e8f99;
+  --text: #434455;
+  --pressed-state: #404bbf;
+  --pimary-brand: #4d5ae5;
 }
 
-.page {
-    font-family: "Roboto" , sans-serif;
-    background: #FFFFFF;
-    color: #434455;
-    
-
-    
+.body {
+  font-family: "Roboto", sans-serif;
+  background: var(--header-backround);
+  color: var(--text);
 }
 
-.navigation {
-    
-background: #FFFFFF;
+.logo-link {
+  font-family: "Raleway", sans-serif;
 
-
-
-}
-.logo-link { font-family: "Raleway", sans-serif;
-   
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-     color: #4D5AE5;
-     letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--pimary-brand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-link:hover {
-    color: #404BBF;
+  color: var(--pressed-state);
 }
 
+.logo-studio {
+  font-family: "Raleway", sans-serif;
 
-.logo-studio { font-family: "Raleway", sans-serif;
-   
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-   
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-   
-    color: #F4F4FD;
-    
-    
+  align-items: center;
+
+  color: var(--light-backround);
 }
 .logo-studio-link {
-    color: #2E2F42;
+  color: var(--image-backround);
 }
 
-.link-menu  {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-   
-    
-    letter-spacing: 0.02em;
-    
-    
-    color: #2E2F42;
-    
+.link-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--image-backround);
 }
 
-.link-menu:hover { color: #404BBF;
-
+.link-menu:hover {
+  color: var(--pressed-state);
 }
-.link-menu:focus { color: #404BBF;
-
+.link-menu:focus {
+  color: var(--pressed-state);
 }
-
 
 .titlel-section {
-    
-background: #2E2F42;
+  background: var(--image-backround);
 }
 
 .main-page-title {
-    
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--header-backround);
 }
 
-.btn-order { 
-    font-family:  "Roboto", sans-serif;
-   background: #4D5AE5;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
+.btn-order {
+  font-family: "Roboto", sans-serif;
+  background: var(--pimary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
-letter-spacing: 0.04em;
-color: #FFFFFF;
-flex: none;
-cursor: pointer;
- }
+  letter-spacing: 0.04em;
+  color: var(--header-backround);
+
+  cursor: pointer;
+}
 
 .btn-order:hover {
-    background-color: #404BBF;
+  background-color: var(--pressed-state);
 }
 
 .btn-order:focus {
-    background-color: #404BBF;
+  background-color: var(--pressed-state);
 }
-
 
 .link-information {
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
 
-letter-spacing: 0.02em;
-
-
-
-
-
+  letter-spacing: 0.02em;
 }
 
-
 .link-information:hover {
-    color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .link-information:focus {
-    color: #404bbf;
+  color: var(--pressed-state);
 }
 
-
-
-
-
-
 .information {
-    background: #FFFFFF;
+  background: var(--header-backround);
 }
 
 .title-menu {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-   letter-spacing: 0.02em;
-    color: #2E2F42;
-     flex: none;
-    
-    
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--image-backround);
 }
 
 .paragraph {
-    
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 .subtitle-main-page {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
-
-
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--image-backround);
 }
 
 .section-team {
-    background: #F4F4FD;
+  background: var(--light-backround);
 }
 
 .desc-menu {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
 
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-
-
-
-color: #2E2F42;
-background: #FFFFFF;
+  color: var(--image-backround);
 }
 
 .images-photo {
-    background: #FFFFFF;
+  background: var(--header-backround);
 }
 
 .name {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 
-text-align: center;
-letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
 
-color: #2E2F42;
-
+  color: var(--image-backround);
 }
 
 .specialty {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: #434455;
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 .closing {
-    background: #2E2F42;
+  background: var(--image-backround);
 }
 
 .paragraph-ft {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
-
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-backround);
 }
 
+.main-menu-one {
+  font-family: "Roboto", sans-serif;
+  background: var(--light-backround);
 
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
-.main-menu-one { font-family: "Roboto", sans-serif;
-    background: #F4F4FD;
-
-border-radius: 4px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-
-letter-spacing: 0.04em;
-color: #4D5AE5;
-cursor: pointer;
+  letter-spacing: 0.04em;
+  color: var(--pimary-brand);
+  cursor: pointer;
 }
-.main-menu-one:hover { color: #FFFFFF;
-
+.main-menu-one:hover {
+  color: var(--header-backround);
 }
 
 .main-menu-one:focus {
-    color: #FFFFFF;
+  color: var(--header-backround);
 }
 
 .main-menu-one:hover {
-    background-color : #404BBF;
+  background-color: var(--pressed-state);
 }
 
 .main-menu-one:focus {
-    background-color: #404BBF;
+  background-color: var(--pressed-state);
 }
 
-
-.list { list-style: none;
-
+.list {
+  list-style: none;
 }
-
-
-
 
 .link {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 .link-address {
-    font-style: normal;
-
-
+  font-style: normal;
 }
 
-
 .title {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 
-color: #2E2F42;
-
+  color: var(--image-backround);
 }
 
 .subtitle {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 
-
-letter-spacing: 0.02em;
-color: #434455;
-
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
-
-
-
-
-
